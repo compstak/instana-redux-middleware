@@ -36,7 +36,7 @@ const myAction = args => dispatch => {
       instana: ['startSpaPageTransition']
     }
   });
-  
+
   loadStuff(args).then(result => {
     dispatch({
       type: FINISH_LOADING,

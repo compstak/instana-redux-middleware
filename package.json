@@ -1,6 +1,10 @@
 {
   "name": "instana-redux-middleware",
   "version": "1.0.0",
+  "description": "Instana tracking for redux",
+  "keywords": ["instana", "tracking", "redux"],
+  "homepage": "https://github.com/compstak/instana-redux-middleware",
+
   "main": "dist/main.js",
   "module": "dist/instana-redux-middleware.esm.js",
   "dependencies": {
