@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/Cellar/node/10.11.0/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/stu/Documents/repos/instana-redux-middleware/package.json: Unexpected token } in JSON at position 392
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  {
+    "name": "rollup-starter-lib",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "module": "dist/instana-redux-middleware.esm.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "babel-preset-env": "^1.6.0",
+      "rollup": "^0.46.0",
+      "rollup-plugin-babel": "^2.7.1",
+      "rollup-plugin-commonjs": "^8.0.2"
+    },
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+    },
+    "files": [
+      "dist"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
